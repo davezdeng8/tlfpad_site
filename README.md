@@ -2,7 +2,7 @@
 
 ### Additional Flow Visualizations
 
-The magnitude of the vectors are visualized on this scale:
+Red points are from t and green points are from t+1. The magnitude of the vectors are visualized on this scale:
 
 ![colorbar](https://github.com/davezdeng8/tlfpad_site/blob/master/images/colorbar.png)
 
