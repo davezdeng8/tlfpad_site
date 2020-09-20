@@ -7,7 +7,7 @@ Red points are from t and green points are from t+1. The magnitude of the vector
 <img src="images/colorbar.png">
 
 **Scene 1**
-In this scene, the ego vehicle is driving past a full parking lot. The images show the predicted motion vectors of the parked cars. Here PN++ w/ DS outperforms  the other architectures, producing smooth, accurate flow for the cars.
+In this scene, the ego vehicle is driving past a full parking lot. The images show the predicted motion vectors of the parked cars. Here PN++ w/ DS outperforms  the other architectures, producing smooth, accurate flow for the cars. EC w/ DS also performs reasonably well. 
 
 FN3DOOB
 
