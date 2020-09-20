@@ -2,33 +2,56 @@
 
 ### Additional Flow Visualizations
 
+**Scene 1**
+In this scene, the ego vehicle is driving past a full parking lot. The images show the predicted motion vectors of the parked cars. Here PN++ w/ DS outperforms all the others, producing smooth, accurate flow for the cars.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+FN3DOOB
 
-```markdown
-Syntax highlighted code block
+![FN3DOOB 0655](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/FlowNet3DOOB_0655_vis.png)
 
-# Header 1
-## Header 2
-### Header 3
+FN3DA
 
-- Bulleted
-- List
+![FN3DA 0655](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/FlowNet3D_0655_vis.png)
 
-1. Numbered
-2. List
+PN++ w/ DS
 
-**Bold** and _Italic_ and `Code` text
+![PN++DS 0655](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/PPNPPD_0655_vis.png)
 
-[Link](url) and ![Image](src)
-```
+PN++ w/o DS
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![PNNDS 0655](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/PPNPP_0655_vis.png)
 
-### Jekyll Themes
+EC w/ DS
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/davezdeng8/davezdeng8.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![ECDS 0655](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/PCPD_0655_vis.png)
 
-### Support or Contact
+EC w/o DS
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![ECNDS 0655](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/PCPb_0655_vis.png)
+
+**Scene 2**
+In this scene, the ego vehicle is moving forward, and there is a car following at about the same speed behind it. The car is at the bottom left of the images. PN++ w/ DS and EC w/o DS are able to capture the global movement of the scene, while also predicting that the car moves independently from the rest of the scene ie. it stays still relative to the ego vehicle's coordinate frame. 
+
+FN3DOOB
+
+![FN3DOOB 0757](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/FlowNet3DOOB_0757_vis.png)
+
+FN3DA
+
+![FN3DA 0757](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/FlowNet3D_0757_vis.png)
+
+PN++ w/ DS
+
+![PN++DS 0757](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/PPNPPD_0757_vis.png)
+
+PN++ w/o DS
+
+![PNNDS 0757](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/PPNPP_0757_vis.png)
+
+EC w/ DS
+
+![ECDS 0757](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/PCPD_0757_vis.png)
+
+EC w/o DS
+
+![ECNDS 0757](https://github.com/davezdeng8/davezdeng8.github.io/blob/master/images/PCPb_0757_vis.png)
