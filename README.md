@@ -2,6 +2,10 @@
 
 ### Additional Flow Visualizations
 
+Visualizations are on this scale:
+
+![colorbar](https://github.com/davezdeng8/tlfpad_site/blob/master/images/colorbar.png)
+
 **Scene 1**
 In this scene, the ego vehicle is driving past a full parking lot. The images show the predicted motion vectors of the parked cars. Here PN++ w/ DS outperforms all the others, producing smooth, accurate flow for the cars.
 
