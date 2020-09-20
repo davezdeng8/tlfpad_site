@@ -2,12 +2,12 @@
 
 ### Additional Flow Visualizations
 
-Visualizations are on this scale:
+The magnitude of the vectors are visualized on this scale:
 
 ![colorbar](https://github.com/davezdeng8/tlfpad_site/blob/master/images/colorbar.png)
 
 **Scene 1**
-In this scene, the ego vehicle is driving past a full parking lot. The images show the predicted motion vectors of the parked cars. Here PN++ w/ DS outperforms all the others, producing smooth, accurate flow for the cars.
+In this scene, the ego vehicle is driving past a full parking lot. The images show the predicted motion vectors of the parked cars. Here PN++ w/ DS outperforms  the other architectures, producing smooth, accurate flow for the cars.
 
 FN3DOOB
 
@@ -34,7 +34,7 @@ EC w/o DS
 ![ECNDS 0655](https://github.com/davezdeng8/tlfpad_site/blob/master/images/PCPb_0655_vis.png)
 
 **Scene 2**
-In this scene, the ego vehicle is moving forward, and there is a car following at about the same speed behind it. The car is at the bottom left of the images. PN++ w/ DS and EC w/o DS are able to capture the global movement of the scene, while also predicting that the car moves independently from the rest of the scene ie. it stays still relative to the ego vehicle's coordinate frame. 
+In this scene, the ego vehicle is moving forward, and there is a car behind it travelling at about the same velocity. This car is at the bottom left of the images. PN++ w/ DS, EC w/ DS, and EC w/o DS are able to capture the global movement of the scene, while also predicting that the car moves independently from the rest of the scene ie. it stays still relative to the ego vehicle's coordinate frame. 
 
 FN3DOOB
 
