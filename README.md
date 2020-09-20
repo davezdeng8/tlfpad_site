@@ -31,7 +31,7 @@ EC w/ DS
 
 EC w/o DS
 
-![ECNDS 0655](https://github.com/davezdeng8/tlfpad_site/blob/master/images/PCPb_0655_vis.png)
+![ECNDS 0655](https://github.com/davezdeng8/tlfpad_site/blob/master/images/pcpb_0655_vis.png)
 
 **Scene 2**
 In this scene, the ego vehicle is moving forward, and there is a car behind it travelling at about the same velocity. This car is at the bottom left of the images. PN++ w/ DS, EC w/ DS, and EC w/o DS are able to capture the global movement of the scene, while also predicting that the car moves independently from the rest of the scene ie. it stays still relative to the ego vehicle's coordinate frame. 
